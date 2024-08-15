@@ -36,4 +36,9 @@
   .navbar-active-content{
     color: var(--primary);
   }
+  .btn-contact{
+    background-color:#310140;
+    color: #fff;
+    
+  }
   
