@@ -1,5 +1,7 @@
 import React from 'react'
 import './home.css'
+
+
 const Home = () => {
   return (
     <div className="main">
@@ -52,7 +54,22 @@ const Home = () => {
           efficiency through smart, personalized consulting services. 
           Let us help you transform your business and achieve your full potential.
         </p>
-      </div>    
+      </div>
+      
+
+    </div>
+  
+    <div className="home-lower">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">Personal and Business Websites</h5>
+          <p className="card-text">Market your services through interactive websites to showcase your skillsz</p>
+          <a href="#" className="card-link">Card link</a>
+          <a href="#" className="card-link">Another link</a>
+        </div>
+      </div>
+
+      
     </div>
     </div>
     

@@ -60,3 +60,65 @@
     border-radius: 20px;
     background: transparent;
 } 
+.home-middle-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 40px;
+}
+.home-lower{
+  display: flex;
+  padding: 20px 100px 100px 100px ;
+  justify-content: space-between;
+    /* background-color: #310140; */
+    
+}
+.home-lower-left{
+    width: 30%;
+}
+.card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(49, 1, 64);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-background {
+    background-image: url('../../../public/images/imagemeta8.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(49, 1, 64);
+    color: white;
+    padding: 15px;
+    /* transition: background 0.3s ease; */
+  }
+  
+  .card:hover .card-body {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .card-text {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
