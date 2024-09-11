@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-
+import Pic1 from '../../Layout/partials/images/portfolio3.png'
 
 const Home = () => {
   return (
@@ -61,11 +61,35 @@ const Home = () => {
   
     <div className="home-lower">
       <div className="card">
+        <img className="card-img-top" src={Pic1} alt="Card image cap"/>
         <div className="card-body">
-          <h5 className="card-title">Personal and Business Websites</h5>
-          <p className="card-text">Market your services through interactive websites to showcase your skillsz</p>
-          <a href="#" className="card-link">Card link</a>
-          <a href="#" className="card-link">Another link</a>
+          <h5 className="card-title">Business and Personal Websites</h5>
+          <p className="card-text">Market your business and personal skills by showcasing your portfolio websites</p>
+        </div>
+        <div className="card-body">
+          <a href="https://adams-alvin-portfolio-website-28ly.vercel.app/" className="card-link">See More</a>
+        </div>
+      </div>
+
+      <div className="card">
+        <img className="card-img-top" src={Pic1} alt="Card image cap"/>
+        <div className="card-body">
+          <h5 className="card-title">Business and Personal Websites</h5>
+          <p className="card-text">Market your business and personal skills by showcasing your portfolio websites</p>
+        </div>
+        <div className="card-body">
+          <a href="https://adams-alvin-portfolio-website-28ly.vercel.app/" className="card-link">See More</a>
+        </div>
+      </div>
+
+      <div className="card">
+        <img className="card-img-top" src={Pic1} alt="Card image cap"/>
+        <div className="card-body">
+          <h5 className="card-title">Business and Personal Websites</h5>
+          <p className="card-text">Market your business and personal skills by showcasing your portfolio websites</p>
+        </div>
+        <div className="card-body">
+          <a href="https://adams-alvin-portfolio-website-28ly.vercel.app/" className="card-link">See More</a>
         </div>
       </div>
 
