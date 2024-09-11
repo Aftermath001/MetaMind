@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <a
+      <a 
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
@@ -110,7 +110,7 @@ function Navbar() {
         offset={-70}
         duration={500}
         to="Contact"
-        className="btn btn-outline-primary"
+        className="btn-contact"
       >
         Contact Us
       </Link>
