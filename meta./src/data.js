@@ -68,3 +68,13 @@ export const testimonials = [
         date:"2 years",       
     }
 ]
+
+export const services = [
+    {
+        id:1,
+        
+    },
+    {
+    },
+
+]

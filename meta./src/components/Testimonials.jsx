@@ -4,7 +4,7 @@ import {ImQuotesLeft} from 'react-icons/im'
 import Card from '../UI/Card'
 import {testimonials} from "../data"
 import { FaArrowCircleLeft, FaArrowCircleRight} from "react-icons/fa";
-import Avatar from '../images/imagemeta7.jpg'
+import Avatar from '../images/avatar.jpg'
 
 
 
