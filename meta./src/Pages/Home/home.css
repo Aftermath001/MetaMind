@@ -15,6 +15,7 @@
   gap: 4rem;
 }
 .main_header_left {
+  margin-left:100px;
   margin-top: -3rem;
 }
 .main_header_left h4{
@@ -53,7 +54,12 @@
 .programs{
   margin-top: 4rem;
 }
-.programs_wrapper{
+.top{
+  display: block;
+  align-items: center;
+  padding-left:30%;
+}
+.bottom{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
@@ -70,6 +76,58 @@
   background: var(--color-secondary);
   color:var(--color-gray-600) ;
 }
+.card {
+  border: none; /* Remove the default border */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Ensures image fits within rounded corners */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  background-color: #fff; /* Ensure a clean background */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lifts the card slightly on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ensures the image is nicely scaled */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-body {
+  padding: 20px; /* Adds padding inside the card */
+  text-align: center; /* Centers text inside the card */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Makes the title larger */
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333; /* Darker text color */
+}
+
+.card-text {
+  color: #666; /* Lighter color for card text */
+  margin-bottom: 20px; /* Space below the text */
+}
+
+.btn-primary {
+  background-color: #6a1b9a; /* Primary color for the button (purple) */
+  border-color: #6a1b9a;
+  padding: 10px 20px; /* Adds more padding to the button */
+  border-radius: 50px; /* Rounded button for a modern look */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth button transition */
+}
+
+.btn-primary:hover {
+  background-color: #8e24aa; /* Slightly lighter on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add a shadow to the button */
+}
+
 
 
 /* *******Testimonials */

@@ -8,32 +8,40 @@
   box-sizing: border-box;
 }
 :root{
-  --primary-hue: 210;
-  --gray-hue: 240;
-  --color-primary: hsl(var(--primary-hue), 100%, 50%);
-  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
-  --color-secondary:#ffb116;
-  --color-gray-100: hsl(var( --gray-hue), 47%, 94%);
-  --color-gray-200: hsl(var( --gray-hue), 26%, 75%);
-  --color-gray-300: hsl(var( --gray-hue), 24%, 64%);
-  --color-gray-400: hsl(var( --gray-hue), 16%, 41%);
-  --color-gray-500: hsl(var( --gray-hue), 44%, 25%);
-  --color-gray-600: hsl(var( --gray-hue), 48%, 15%);
-
-  --container-width-1g:80%;
-  --container-width-mg:90%;
+  --primary-hue: 270; /* Adjusted to a purple hue */
+  --gray-hue: 270; /* Keeping the grays in the purple/neutral family */
   
-  --transition:all 500ms ease;
-
+  /* Primary colors in purple shades */
+  --color-primary: hsl(var(--primary-hue), 100%, 50%); /* Pure purple */
+  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%); /* Lighter purple */
+  
+  /* Secondary color */
+  --color-secondary: #b565d9; /* A complementary soft purple tone */
+  
+  /* Grays with purple undertones */
+  --color-gray-100: hsl(var(--gray-hue), 47%, 94%); /* Light purple-gray */
+  --color-gray-200: hsl(var(--gray-hue), 26%, 75%); /* Soft lavender-gray */
+  --color-gray-300: hsl(var(--gray-hue), 24%, 64%); /* Medium lavender-gray */
+  --color-gray-400: hsl(var(--gray-hue), 16%, 41%); /* Darker gray with purple undertones */
+  --color-gray-500: hsl(var(--gray-hue), 44%, 25%); /* Deep purple-gray */
+  --color-gray-600: hsl(var(--gray-hue), 48%, 15%); /* Very dark gray with a hint of purple */
+  
+  /* Container widths */
+  --container-width-lg: 80%;
+  --container-width-mg: 90%;
+  
+  /* Transitions */
+  --transition: all 500ms ease;
 }
+
 
 /* General styles */
 body{
    font-family:'Montserrat',sans-serif;
-   color: var(--color-gray-200);
+   color:black ;
    line-height: 1.7;
    overflow-x: hidden;
-   background: #8f2975;
+   
 }
 .container{
   width: var(--container-width-1g);
@@ -42,17 +50,17 @@ body{
 }
 h1, h2, h3, h4, h5{
   line-height: 1.2;
-  color: var(--color-gray-100);
+  color:black;
 }
 h1{
-  font-size: 3rem;
+  font-size: 5rem;
 
 }
 h2{
-  font-size: 2rem;
+  font-size: 3rem;
 }
 a {
-  color: var(--color-gray-100);
+  color:black ;
 }
 img{
   display: block;
@@ -109,7 +117,7 @@ section{
 
 
 
-.card {
+.card2 {
   background: var(--color-gray-500);
   border: 2px solid transparent;
   text-align: center;
@@ -117,12 +125,12 @@ section{
   border-radius: 0 3rem 0 3rem;
   transition: var(--transition);
 }
-.card:hover{
+.card2:hover{
   background: transparent;
   border-color: var(--color-gray-400);
   cursor: default;
 }
-.card span{
+.card2 span{
   width: 3rem;
   height: 3rem;
   background: var(--color-primary);
@@ -137,11 +145,11 @@ section{
   transition: var(--transition);
 }
 
-.card:hover span {
+.card2:hover span {
   background: var(--color-secondary);
   color: var(--color-gray-600);
 }
-.card small{
+.card2 small{
   margin-top: 1rem;
   display: block;
   font-weight: 300;
