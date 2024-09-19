@@ -7,7 +7,8 @@
   margin-top: 3rem;
 }
 .main_header-container{
-  height: 100%;
+  padding-top:30px ;
+  height: 50%;
   display: grid;
   grid-template-columns:1fr 1fr ;
   align-items: center;
@@ -60,6 +61,7 @@
   padding-left:30%;
 }
 .bottom{
+  padding: 20px ;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
@@ -132,6 +134,7 @@
 
 /* *******Testimonials */
 .testimonial{
+  margin-top:20px;
   width: 50rem;
   margin-inline: auto;
 
@@ -144,7 +147,7 @@
   text-align: left;
   margin-top: 5rem;
 }
-.testimonial_avatar{
+.testimonial_avatar {
   width: 4rem;
   height: 4rem;
   border: 2px solid transparent;
@@ -188,11 +191,45 @@
 }
 
 
+/* *******Card-Grid */
+.card2 {
+  max-width: 18rem;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.card2-header {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+}
+
+.card2-body {
+  padding: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+/* ***Steps*** */
+.steps-wrapper{
+  display: block;
+  margin-top:300px;
+}
+.steps-top{
+  margin-left: 400px;
+}
+
+
+
+/* ***Steps*** */
 
 
 /* *******FOOTER */
 footer {
+
   background: var(--color-primary);
   margin-top: 7rem;
   padding-top: 7rem;
@@ -203,7 +240,7 @@ footer {
 .footer_container{
   display: grid;
   grid-template-columns:26rem 1fr 1fr 1fr ;
-  gap: 6rem;
+  gap: 8rem;
 }
 .footer_container article{
   display: flex;

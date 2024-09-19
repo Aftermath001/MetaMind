@@ -1,0 +1,17 @@
+.container about-container{
+  padding-top:30px ;
+  height: 50%;
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  background-color:yellow;
+
+}
+.about_section-image{
+  width: 9rem;
+  height:9rem;
+  display: flex;
+  border-radius:50%;
+}

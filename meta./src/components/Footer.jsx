@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="container footer_container">
             <article>
                 <Link to="/" className='logo'>
-                    <img src={Logo} alt='Footer Logo'/>
+                    <img src={Logo} alt='Footer Logo' className='logo'/>
                 </Link>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi necessitatibus tempore quis!
+                At Metamind, we transform businesses through innovative and customized consulting solutions
                 </p>
                 <div className="footer_socials">
                     <a href='https://facebook.com/' target='_blank' rel='noreferrer noopener'><FaFacebook/></a>
@@ -40,7 +40,7 @@ const Footer = () => {
             </article>
         </div>
         <div className="footer_copyright">
-            <small>2024 TechDeck &copy; All Rights Reserved</small>
+            <small>2024 MetaMind &copy; All Rights Reserved</small>
         </div>
     </footer>
   )
