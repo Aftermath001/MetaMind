@@ -1,76 +1,64 @@
 import React from 'react'
 import Header from '../../components/Header'
-import HeaderPic from '../../images/imagemeta7.jpg'
-import StoryImage from '../../images/imagemeta7.jpg'
-import VisionImage from '../../images/imagemeta7.jpg'
-import MissionImage from '../../images/imagemeta7.jpg'
+import AboutPic from '../../images/imagemeta3.jpg'
+import StoryImage from '../../images/imagemeta6.jpg'
+import VisionImage from '../../images/imagemeta2.jpg'
+import MissionImage from '../../images/imagemeta1.jpg'
 import './About.css'
 
 
 const About = () => {
   return (
    <>
-   <Header title="About Us" image={HeaderPic}>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Eaque itaque unde perspiciatis exercitationem similique explicabo 
-    ratione mollitia facilis dicta dolorum.
+   <Header title="About Us" image={AboutPic} className='about-wrapper'>
+   Founded by Alvin and Joe, experienced software engineers, MetaMind Limited has quickly established itself as a go-to source for custom software development services. 
+   Our team is composed of experts who are passionate about technology and are dedicated to delivering the highest quality products and services to our clients.
    </Header>
-   <section className="about_story">
-    <div className='container about_story-container'>
+   <section className="about">
+    <div className='container about-container'>
       <div className="about_section-image">
-        <img src={StoryImage} alt="Our Story"/>
+        <img src={StoryImage} alt="Our Story" className="about_section-image"/>
       </div>
       <div className="about_section-content">
-        <h1>OUR STORY</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
+        <h2>OUR STORY</h2>
+        <p>Metamind was founded in 2023 by Alvin Adams who had a passion for innovation and excellence. 
+          Over the monthss, we have grown from a small startup into a renowned consultancy firm, helping businesses across various 
+          industries navigate complex challenges and achieve sustainable growth.
+          Our journey began with a commitment to delivering personalized and impactful solutions, and this philosophy continues to drive us today
+        </p>
       </div>
     </div>
 
    </section>
-   <section className="about_Vision">
+   <section className="about">
     <div className='container about_Vision-container'>
-      <div className="about_section-content">
-        <h1>OUR VISION</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
-      </div>
       <div className="about_section-image">
-        <img src={VisionImage} alt="Our Vision"/>
+        <img src={VisionImage} alt="Our Vision" className="about_section-image"/>
       </div>
+      <div className="about_section-content">
+        <h2>OUR VISION</h2>
+        <p>Metamind was founded in 2023 by Alvin Adams who had a passion for innovation and excellence. 
+          Over the monthss, we have grown from a small startup into a renowned consultancy firm, helping businesses across various 
+          industries navigate complex challenges and achieve sustainable growth.
+          Our journey began with a commitment to delivering personalized and impactful solutions, and this philosophy continues to drive us today
+        </p>
+      </div>
+     
     </div>
 
    </section>
-   <section className="about_mission">
+   <section className="about">
     <div className='container about_mission-container'>
       <div className="about_section-image">
-        <img src={MissionImage } alt="Our Mission"/>
+        <img src={MissionImage } alt="Our Mission" className="about_section-image"/>
       </div>
       <div className="about_section-content">
-        <h1>OUR MISSION</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Animi exercitationem doloremque consequatur cum nobis 
-          nam neque minima perferendis quis blanditiis.</p>
+        <h2>OUR MISSION</h2>
+        <p>At Metamind, our mission is to empower businesses to unlock their full potential through innovative and tailored consulting solutions.
+           We strive to be the catalyst for transformation, providing our clients with the tools, 
+          strategies, and insights needed to thrive in an ever-evolving marketplace. Our goal is to build lasting partnerships based on trust, excellence, and measurable success.
+        </p>
+         
       </div>
     </div>
 
