@@ -12,7 +12,6 @@ const Home = () => {
     <MainHeader />
     <Programs/>
     <Choice/>
-    <Steps />
     <Testimonials/>
     
     </>
