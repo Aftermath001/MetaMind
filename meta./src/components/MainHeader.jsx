@@ -17,9 +17,7 @@ const MainHeader = () => {
         <div className="main_header_left">
           <h1>METAMIND LIMITED</h1>
           <p>
-          Over the years, we have grown from a small startup into a renowned consultancy firm, 
-          helping businesses across various industries navigate complex challenges and achieve sustainable growth. 
-          Our journey began with a commitment to delivering personalized and impactful solutions, and this philosophy continues to drive us today.
+          At Metamind, we are dedicated to helping businesses navigate complex challenges and achieve sustainable growth through personalized and impactful solutions.
           </p>
           <Link to="/contact" className='btn 1g'>GET QUOTE</Link>
         </div>
