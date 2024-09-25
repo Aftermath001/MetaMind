@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Pages/Home/home.css'
 import { Link } from 'react-router-dom'
-import backgroundImage from '../images/cup-of-coffee-1280537.jpg';
+import backgroundImage from '../images/pexels-junior-teixeira-1064069-2047905.jpg'
 
 
 
@@ -15,7 +15,6 @@ const MainHeader = () => {
     }}>
       <div className="main_header-container">
         <div className="main_header_left">
-          <h4>No.1 Consulting Company</h4>
           <h1>METAMIND LIMITED</h1>
           <p>
           Over the years, we have grown from a small startup into a renowned consultancy firm, 
@@ -24,13 +23,7 @@ const MainHeader = () => {
           </p>
           <Link to="/contact" className='btn 1g'>GET QUOTE</Link>
         </div>
-        <div className="main_header_right">
-          <div className="main_header_image">
-           
-
-
-          </div>
-        </div>
+        
       </div>
 
     </header>
