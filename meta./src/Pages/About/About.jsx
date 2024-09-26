@@ -1,9 +1,9 @@
 import React from 'react'
 import Header from '../../components/Header'
 import AboutPic from '../../images/pexels-fauxels-3184424.jpg'
-import StoryImage from '../../images/imagemeta6.jpg'
-import VisionImage from '../../images/imagemeta2.jpg'
-import MissionImage from '../../images/imagemeta1.jpg'
+import StoryImage from '../../images/story.png'
+import VisionImage from '../../images/vision.png'
+import MissionImage from '../../images/mission.png'
 import './About.css'
 import Profile from '../../components/Profile'
 
@@ -11,13 +11,13 @@ import Profile from '../../components/Profile'
 const About = () => {
   return (
    <>
-   <Header title="About Us" image={AboutPic} className='about-wrapper'>
-   Founded by Alvin and Joe, experienced software engineers, MetaMind Limited has quickly established itself as a go-to source for custom software development services. 
-   Our team is composed of experts who are passionate about technology and are dedicated to delivering the highest quality products and services to our clients.
+   <Header title="About MetaMind Limited" image={AboutPic} className='about-wrapper'>
+    Metamind has grown from a small startup into a renowned consultancy firm, committed to delivering personalized and impactful solutions.
    </Header>
    <section className="about">
     <div className='container about-container'>
       <div className="about_section">
+        
         <img src={StoryImage} alt="Our Story" className="about_section-image"/>
       </div>
       <div className="about_section-content">

@@ -1,4 +1,4 @@
-*, *::before, *::after{
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   border: 0;
@@ -7,24 +7,20 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-:root{
-  --primary-hue: 270; /* Adjusted to a purple hue */
-  --gray-hue: 270; /* Keeping the grays in the purple/neutral family */
+
+:root {
+  --primary-hue: 45; /* Golden color */
   
-  /* Primary colors in purple shades */
-  --color-primary: hsl(var(--primary-hue), 100%, 50%); /* Pure purple */
-  --color-primary-variant: hsl(var(--primary-hue), 100%, 65%); /* Lighter purple */
-  
-  /* Secondary color */
-  --color-secondary: #b565d9; /* A complementary soft purple tone */
-  
-  /* Grays with purple undertones */
-  --color-gray-100: hsl(var(--gray-hue), 47%, 94%); /* Light purple-gray */
-  --color-gray-200: hsl(var(--gray-hue), 26%, 75%); /* Soft lavender-gray */
-  --color-gray-300: hsl(var(--gray-hue), 24%, 64%); /* Medium lavender-gray */
-  --color-gray-400: hsl(var(--gray-hue), 16%, 41%); /* Darker gray with purple undertones */
-  --color-gray-500: hsl(var(--gray-hue), 44%, 25%); /* Deep purple-gray */
-  --color-gray-600: hsl(var(--gray-hue), 48%, 15%); /* Very dark gray with a hint of purple */
+  /* Primary colors: Black and Gold */
+  --color-primary: hsl(var(--primary-hue), 100%, 50%); /* Golden color */
+  --color-secondary: #1c1c1c; /* Dark black */
+
+  /* Gray shades (black undertones) */
+  --color-gray-100: hsl(0, 0%, 10%); /* Dark gray */
+  --color-gray-200: hsl(0, 0%, 20%); /* Medium dark gray */
+  --color-gray-300: hsl(0, 0%, 30%); /* Medium gray */
+  --color-gray-400: hsl(0, 0%, 40%); /* Light gray */
+  --color-gray-500: hsl(0, 0%, 50%); /* Lighter gray */
   
   /* Container widths */
   --container-width-lg: 80%;
@@ -33,6 +29,9 @@
   /* Transitions */
   --transition: all 500ms ease;
 }
+
+
+
 
 
 /* General styles */
@@ -50,14 +49,42 @@ main {
 }
 
 body {
+  background-color: #111927;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(294.65, 0%, 0%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(43.59, 87%, 44%) 0, transparent 55%);
   height: 100%;
   margin: 0;
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
-  color: #333;
+  color: #020200; /* Golden text color */
+  font-family: 'Arial', sans-serif;
+}
+button, .btn {
+  background-color: var(--color-primary); /* Golden button */
+  color: var(--color-gray-100); /* Blackish text */
+  border: none;
+}
+.btn:hover {
+  background-color: var(--color-secondary); /* Black on hover */
+  color: var(--color-primary); /* Golden text */
 }
 
+.card2 {
+  background-color: var(--color-gray-300); /* Dark gray card */
+  color: var(--color-primary); /* Golden text */
+}
+
+.card2:hover {
+  background-color: var(--color-secondary); /* Black on hover */
+  color: var(--color-primary); /* Golden text */
+}
+
+header, footer {
+  background-color: var(--color-secondary); /* Black header and footer */
+  color: var(--color-primary); /* Golden text */
+}
 /* Container */
 .container {
   width: 90%;
@@ -73,19 +100,21 @@ body {
 }
 
 /* Button Styling */
-.btn {
-  padding: 10px 20px;
-  background-color: #a200ff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  cursor: pointer;
-  transition: 0.3s ease;
+.header, footer {
+  background-color: var(--color-secondary); /* Black header and footer */
+  color: var(--color-primary); /* Golden text */
 }
 
-.btn:hover {
-  background-color: #0a0a0a;
+.section_head span {
+  background: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+/* Additional styles for responsiveness and other elements */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+  }
 }
 
 
