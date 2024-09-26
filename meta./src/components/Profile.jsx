@@ -35,7 +35,9 @@ const Profile = () => {
       <div className="profile-info">
         <h2>JOE OTUYA</h2>
         <p>
-            Joe Otuya is the CEO of [Your Company Name]. With over 15 years of experience in the industry, she has led the company to new heights. Under her leadership, the company has grown significantly and achieved numerous awards.
+            Joe Otuya is he Director and Co-founder of MetaMind Limited. 
+            With years of experience in the industry, he has led the company to new heights. 
+            Under his leadership, the company has grown significantly and achieved numerous awards.
         </p>
         <div className="achievements">
           <h3>Achievements</h3>
