@@ -39,12 +39,19 @@
 
 /* Reset */
 * {
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* Main container must occupy full height, pushing footer down */
+main {
+  min-height: calc(100vh - 7rem); /* Adjust to make space for the footer */
+}
 
 body {
+  height: 100%;
+  margin: 0;
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
