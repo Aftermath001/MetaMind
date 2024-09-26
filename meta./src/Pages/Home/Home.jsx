@@ -4,7 +4,8 @@ import MainHeader from '../../components/MainHeader'
 import Programs from '../../components/Programs'
 import Testimonials from '../../components/Testimonials'
 import Choice from '../../components/Choice'
-import Steps from '../../components/Steps'
+import Packages from '../../components/Packages'
+import Counter from '../../components/Counter'
 
 const Home = () => {
   return (
@@ -12,6 +13,8 @@ const Home = () => {
     <MainHeader />
     <Programs/>
     <Choice/>
+    <Packages/>
+    <Counter />
     <Testimonials/>
     
     </>
