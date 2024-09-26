@@ -1,10 +1,11 @@
 import React from 'react'
 import Header from '../../components/Header'
-import AboutPic from '../../images/imagemeta3.jpg'
+import AboutPic from '../../images/pexels-fauxels-3184424.jpg'
 import StoryImage from '../../images/imagemeta6.jpg'
 import VisionImage from '../../images/imagemeta2.jpg'
 import MissionImage from '../../images/imagemeta1.jpg'
 import './About.css'
+import Profile from '../../components/Profile'
 
 
 const About = () => {
@@ -16,7 +17,7 @@ const About = () => {
    </Header>
    <section className="about">
     <div className='container about-container'>
-      <div className="about_section-image">
+      <div className="about_section">
         <img src={StoryImage} alt="Our Story" className="about_section-image"/>
       </div>
       <div className="about_section-content">
@@ -63,6 +64,9 @@ const About = () => {
     </div>
 
    </section>
+   <div className='about-profiles'>
+      <Profile/>
+   </div>
    </>
   )
 }

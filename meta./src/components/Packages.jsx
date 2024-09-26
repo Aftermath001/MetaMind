@@ -5,6 +5,7 @@ const Packages = () => {
     <div className='packages'>
         <div className="upper">
             <h2>Our Services</h2>
+            <p>See More </p>
         </div>
         <div className="lower">
             <div className="card-container">
@@ -69,6 +70,8 @@ const Packages = () => {
                     </div>
                 </div>
             </div>
+
+            
         </div>
     </div>
   )
