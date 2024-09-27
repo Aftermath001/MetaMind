@@ -10,8 +10,8 @@ export const links = [
         path: '/about'
     },
     {
-        name:"Gallery",
-        path: '/gallery'
+        name:"Services",
+        path: '/services'
     },
     {
         name:"  Contact",
@@ -69,12 +69,3 @@ export const testimonials = [
     }
 ]
 
-export const services = [
-    {
-        id:1,
-        
-    },
-    {
-    },
-
-]
